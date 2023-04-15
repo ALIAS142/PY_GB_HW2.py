@@ -5,6 +5,10 @@ N = int(input("Enter number: "))
 k = 0
 a = 2 ** k
 while a < N:
+    a = 2 ** k
+    if a > N:
+        break
     print(a)
-k = k + 1
+    k = k + 1
+
 

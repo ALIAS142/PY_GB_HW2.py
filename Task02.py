@@ -3,13 +3,22 @@
 # Для этого Петя делает две подсказки. Он называет сумму этих чисел S и их произведение P.
 # Помогите Кате отгадать задуманные Петей числа.
 
-x = 0
-y = 0
 
-S = int(input("Enter sum"))
-M = int(input("Enter mult"))
+S = int(input("Enter sum "))
+M = int(input("Enter mult "))
+x1 = int(1)
+x2 = int(1)
+y1 = int(S - x1)
+y2 = int(M / x2)
 
-S = x + y
-M = x * y
+S = int(x1 + y1)
+M = int(x2 * y2)
 
-if x = 1
+while y1 != y2:
+          x1 += 1
+          x2 += 1
+          y1 = S - x1
+          y2 = M / x2
+          print(x1, x2, y1, y2)
+
+
